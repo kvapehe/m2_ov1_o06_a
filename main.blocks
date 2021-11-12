@@ -1,16 +1,16 @@
-<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="JAUSOJbzvpX#/=Qj4jqc" x="-322" y="-86"><statement name="HANDLER"><block type="device_show_leds" id="5lQ_+FvBM@[8XpOQIAr5"><field name="LEDS">`
+<xml xmlns="https://developers.google.com/blockly/xml"><block type="pxt-on-start" id="JAUSOJbzvpX#/=Qj4jqc" x="-325" y="-9"><statement name="HANDLER"><block type="device_show_leds" id="5lQ_+FvBM@[8XpOQIAr5"><field name="LEDS">`
         # . . . . 
         . . . . . 
         . . # . . 
         . . . . . 
         . . . . #
-        `</field></block></statement></block><block type="device_forever" id="$F3}`[@})SCk(-KE|1+I" x="3" y="-77"><statement name="HANDLER"><block type="device_show_leds" id="~{j2YkmW}WlG@#EQ^^(Q"><field name="LEDS">`
+        `</field></block></statement></block><block type="device_forever" id="$F3}`[@})SCk(-KE|1+I" x="0" y="0"><statement name="HANDLER"><block type="device_show_leds" id="~{j2YkmW}WlG@#EQ^^(Q"><field name="LEDS">`
         . . . . . 
         . . . . . 
         . . # # . 
         . . . . . 
         . . . . .
-        `</field><comment pinned="true" h="138.40017700195312" w="166.1473388671875" relx="197.49527533461782" rely="-60.694939880265736">Kan fjernes for å unngå å forstyrre timer-løkken.</comment></block></statement></block><block type="device_show_leds" id="ZuJ6ZZYXW[M:MHCX#%Jk" disabled="true" x="499" y="190"><field name="LEDS">`
+        `</field><comment pinned="true" h="138" w="166" relx="197" rely="-60">Kan fjernes for å unngå å forstyrre timer-løkken.</comment></block></statement></block><block type="device_show_leds" id="ZuJ6ZZYXW[M:MHCX#%Jk" disabled="true" x="496" y="267"><field name="LEDS">`
         # # # # # 
         . . . . . 
         . . . . . 
@@ -40,7 +40,7 @@
         # # # # # 
         # # # # # 
         # # # # #
-        `</field></block></next></block></next></block></next></block></next></block><block type="every_interval" id="JhMO:cjBK]CSHAM1Vvhp" x="-337" y="370"><comment pinned="true" h="314.4444274902344" w="606.6665649414062" relx="194.0000000000001" rely="-85.99999999999989">Dette er nok til å blinke ca 10 ms for hvert sekund
+        `</field></block></next></block></next></block></next></block></next></block><block type="every_interval" id="JhMO:cjBK]CSHAM1Vvhp" x="-340" y="447"><comment pinned="true" h="314" w="606" relx="194" rely="-85">Dette er nok til å blinke ca 10 ms for hvert sekund
 
 Siden forever-loop ikke er tom så forstyrrer den oppgaven.
 Ved å ta bort ledvising i den så vil alle LED blinke rundt en gang pr sek og i ca 10 ms. Kan legge inn en pause slik at blink blir minst 10 ms. Det eksemplet som er til høyre for timer-loop virker ikke da det tar tid med hver LED-vinsg.
@@ -56,4 +56,4 @@ Test dette også. Faktisk finnes den en oppgave B som gjør dette. Å jobbe med 
         . . . . . 
         . . . . . 
         . . . . .
-        `</field></block></next></block></next></block></statement></block><block type="device_pause" id="LLS,:c=wPfSx*5yn^$p(" disabled="true" x="59" y="641"><value name="pause"><shadow type="timePicker" id="3YS0oW7Aw(EsbNycf[}r" disabled="true"><field name="ms">10</field></shadow></value></block></xml>
+        `</field></block></next></block></next></block></statement></block><block type="device_pause" id="LLS,:c=wPfSx*5yn^$p(" disabled="true" x="56" y="718"><value name="pause"><shadow type="timePicker" id="3YS0oW7Aw(EsbNycf[}r" disabled="true"><field name="ms">10</field></shadow></value></block></xml>
